@@ -36,7 +36,7 @@ body{
 
 .go-top:hover{
     border: 2px solid var(--white);
-    background: var(--red);
+    background: var(--blue);
 }
 
 .go-top:hover span{
@@ -61,7 +61,7 @@ body{
     left: 0;
     width: 100%;
     height: 60px;
-    background: #fff;
+    background: rgb(0, 0, 0);
 
     display: flex;
     justify-content: space-between;
@@ -77,11 +77,11 @@ body{
     text-decoration: none;
     font-size: 35px;
     font-weight: 400;
-    color: var(--black);
+    color: var(--white);
 }
 
 .menu .list-container{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .menu .list-container .lists{
@@ -96,22 +96,22 @@ body{
     text-decoration: none;
     margin: 0px 10px;
     padding: 8px;
-    color: var(--black);
+    color: var(--white);
     border-radius: 24px;
     font-size: 16px;
     transition: 0.3s;
 
 }
-
 .menu .list-container .lists li a.activo{
     background: var(--red);
-    color: #fff;
+    color: #fff; 
 }
 
 .menu .list-container .lists li a:hover{
-    background: var(--red);
+    background: var(--blue);
     color: #fff;
 }
+
 .btn-menu > .fa-bars{
     display: none;
 }
@@ -121,7 +121,7 @@ body{
 .img-header{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background: url(../img/paula-9.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -134,8 +134,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);   
-    
+    background: rgba(0, 0, 0, 0.6);    
 }
 
 
@@ -149,7 +148,7 @@ body{
     font-size: 22px;
     color: #fff;
     text-align: center;
-    margin-top: 550px;
+    margin-top: 450px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -179,6 +178,7 @@ body{
     text-align: center;
     margin-bottom: 20px;    
 }
+
 
 .acerca-de .info-container p{
     text-align: center;
@@ -350,107 +350,9 @@ body{
 }
 
 .footer .footer-content{
-    width: 90%;
-    padding-top: 100px;
-    margin:auto;
-}
-
-.footer .footer-content .footer-title{
-    width: 50%;
-    margin: auto;
-    border: 2px solid #fff;
-    padding: 15px;
-}
-
-.footer .footer-content .footer-title h2{
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
-    font-weight: normal;
-    padding: 15px;
-    margin-bottom: 10px;
-}
-
-.footer .footer-content .footer-title hr{
-    width: 80%;
-    margin: auto;
-}
-
-.footer .footer-content .formulario-content{
-    width: 60%;
-    background: #fff;
-    border-radius: 20px;
-    border: 20px solid var(--red);
-    margin: 50px auto;
-    padding: 30px;
-}
-
-.footer .footer-content .formulario-content #formulario{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.footer .footer-content .formulario-content #formulario label{
-    text-align: center;
-    color: var(--black);
-    font-size: 22px;
-    margin: 30px 0px 10px 0px;
-}
-
-.footer .footer-content .formulario-content #formulario input{
-    width: 90%;
-    height: 35px;
-    margin: auto;
-    border: 2px solid var(--red);
-    border-radius: 24px;
-    outline: none;
-    text-align: center;
-    font-size: 17px;
-    color: var(--black);
-}
-
-.footer .footer-content .formulario-content #formulario textarea{
-    width: 90%;
-    height: 200px;
-    margin: auto;
-    border: 2px solid var(--red);
-    border-radius: 24px;
-    outline: none;
-    font-size: 15px;
-    color: var(--black);
-    padding: 20px;
-}
-
-.footer .footer-content .formulario-content #formulario .send{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 40px 0px;
-}
-
-.footer .footer-content .formulario-content #formulario .send button{
-    width: 150px;
-    height: 40px;
-    background: var(--red);
-    border-radius: 24px;
-    border: none;
-    outline: none;
-    font-size: 22px;
-    color: #fff;
-    text-align: center;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.footer .footer-content .formulario-content #formulario .send button:hover{
-    background: var(--blue);
-
-}
-
-.footer .footer-content .formulario-content .mensaje-form{
-    text-align: center;
+    padding-top: 50px;
+    margin:auto;
 }
 
 .footer .footer-content .footer-text{
@@ -458,7 +360,7 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
